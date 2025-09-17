@@ -13,6 +13,12 @@ It is widely used in bioinformatics to identify regions of similarity between DN
 1. **Initialization** – Build a scoring matrix with zeros in the first row and column.  
 2. **Matrix Filling** – Score cells based on match/mismatch and gap penalties.  
 3. **Traceback** – Start from the highest-scoring cell and trace back until score is zero.  
-4. **Output** – Extract aligned subsequences and report alignment score.  
+4. **Output** – Extract aligned subsequences and report alignment score.
+
+## 📌 Applications
+- DNA/RNA sequence comparison
+- Protein similarity search
+- Mutation and evolutionary analysis
+- Foundational bioinformatics algorithm
 
 
